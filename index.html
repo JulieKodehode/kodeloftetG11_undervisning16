@@ -18,7 +18,40 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+
+      <!-- 
+        OPPGAVE 1:
+        1. Lag et input-felt som tar i mot fornavn
+        2. Lag et input-felt som tar i mot etternavn
+        3. Lag et input-felt som tar i mot alder
+        4. Lag et input-felt som tar i mot en avkryssning
+       -->
+      <form class="flexCol">
+        <label class="flexCol" for="firstName">
+          Skriv ditt fornavn
+          <input class="inputSize" type="text" name="firstName" id="firstName" placeholder="Eks. Ola">
+        </label>
+
+        <label class="flexCol" for="lastName">
+          Skriv ditt etternavn
+          <input class="inputSize" type="text" name="lastName" id="lastName" placeholder="Eks. Nordmann">
+        </label>
+      
+        <label class="flexCol" for="age">
+          Skriv in din alder
+          <input class="inputSize" type="number" name="age" id="age" placeholder="Eks. 47">
+        </label>
+      
+        <label class="flexCol" for="termsAndConditions">
+          Har du lest bruker rettningslinjene
+          <input class="inputSize" type="checkbox" name="termsAndConditions" id="termsAndConditions">
+        </label>
+
+        <button class="buttonSize" id="submitButton">Send inn skjema</button>
+        <!-- <input type="button" value=""> -->
+      </form>
+    </main>
     <footer>
       <p>Laget av Julie Hauge</p>
     </footer>
